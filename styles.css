@@ -1,0 +1,81 @@
+header {
+  position: fixed;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #60989c;
+}
+header h1 {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 36px;
+  border: 4px solid white;
+  color: #9ed7db;
+}
+
+.logo {
+  position: relative;
+  margin-right: 10px;
+  float: center;
+  top: 15px;
+}
+
+body {
+  background-color: #99c7ca;
+}
+.banner {
+  position: relative;
+  max-width: 100%;
+}
+
+.banner .welcome {
+  position: absolute;
+  padding: 3px;
+  top: 50%;
+  left: 5%;
+  font-size: 25px;
+  color: #ffffff;
+  background: #bfdddfaf;
+}
+.line {
+  position: absolute;
+}
+.banner .News {
+  position: absolute;
+  padding: 3px;
+  top: 40%;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background: #ffffff;
+}
+.banner .facts {
+  position: absolute;
+  padding: 3px;
+  top: 40%;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background: #ffffff;
+}
+.banner .aboutus {
+  position: absolute;
+  padding: 3px;
+  top: 40%;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background: #ffffff;
+}
+.banner .home {
+  position: absolute;
+  padding: 3px;
+  top: 40%;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background: #ffffff;
+}
