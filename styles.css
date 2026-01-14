@@ -79,3 +79,29 @@ body {
   color: #ffffff;
   background: #ffffff;
 }
+nav {
+  position: sticky;
+  padding: 15px;
+  top: 60px;
+  z-index: 1;
+  background: #99c7ca;
+}
+
+nav ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+nav li {
+  width: 30%;
+  font-size: 26px;
+  display: inline-block;
+}
+
+nav li a {
+}
+
+nav li a:hover {
+}
