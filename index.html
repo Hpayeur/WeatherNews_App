@@ -39,6 +39,26 @@
           fascinating website!
         </p>
       </article>
+      <div class="one" id="WeatherData">
+        <h4>Tooele Weather Summary</h4>
+        <ul>
+          <li id="feelslike">Feels Like: 53°</li>
+          <li id="currentTemp">Current Tempature: 40°</li>
+          <li id="highs">Highs: 43°</li>
+          <li id="lows">Lows: 29°</li>
+          <li id="windSpeed">WindSpeed: 5mph</li>
+          <li id="humidity">Humidity: 62%</li>
+          <li id="summary">Currently: Sunny</li>
+        </ul>
+        <img src="NewsImages/SunnyWeather.jpg" />
+      </div>
+      <h4>Your City Weather Summary</h4>
+      <div class="weather-container">
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button onclick="getWeather()">Search</button>
+
+        <div id="weather-results"></div>
+      </div>
     </main>
     <footer>
       <p>
